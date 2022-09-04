@@ -66,14 +66,16 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     alignItems: "flex-end",
   },
-  sub_area: { flex: 0.5, width: "75%", borderRadius: 8 },
+  sub_area: { flex: 0.5, width: "75%", borderRadius: 10 },
 
   set_filter_norm: {
     backgroundColor: "yellow",
     opacity: 0.9,
+    borderRadius: 10,
   },
   set_filter_streak: {
     backgroundColor: "orange",
     opacity: 0.9,
+    borderRadius: 10,
   },
 });

@@ -1,27 +1,33 @@
 {
   "expo": {
-    "name": "ShuttleScore",
+    "name": "셔틀스코어",
     "slug": "ShuttleScore",
     "version": "1.0.1",
+    "platforms": ["android"],
     "orientation": "landscape",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/adaptive-icon.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#262626"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": ["**/*"],
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
+        "backgroundColor": "#262626"
+      },
+      "package": "com.TransparentDeveloper.ShuttleScore",
+      "versionCode": 9,
+      "permissions": []
+    },
+    "extra": {
+      "eas": {
+        "projectId": "662ffcf2-b2f2-4730-b129-f435727da0ec"
       }
     }
   }

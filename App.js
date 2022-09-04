@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View } from "react-native";
+import { StatusBar } from "expo-status-bar";
 import NamePlate from "./components/NamePlate";
 import ScorePlate from "./components/ScorePlate";
 import CourtImagePlate from "./components/CourtImagePlate";
@@ -137,6 +138,7 @@ export default function App() {
           color={color[1]}
         />
       </View>
+      <StatusBar style="dark" />
     </View>
   );
 }
