@@ -1,8 +1,12 @@
+*version 1.0.2
 <div align="center">
- <img width="15%" src="https://user-images.githubusercontent.com/50646145/188305754-c844e2dc-8eea-4e82-853d-31316db7379f.png"/>
+
+ <img width="15%" src="https://user-images.githubusercontent.com/50646145/190134073-cbd37ca5-536d-4099-a3a4-915ec3a0ef26.png"/>
+
 
  ### 셔틀스코어 - ShuttleScore
- #### -스코어보드 어플리케이션 제작 프로젝트 입니다-
+ #### -안드로이드 기반 스코어보드 어플리케이션 입니다.-
+ #### -Android-based scoreboard application.-
  
  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=React&logoColor=white"/>
  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=JavaScript&logoColor=white"/>
