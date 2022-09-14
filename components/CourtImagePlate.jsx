@@ -74,11 +74,11 @@ const styles = StyleSheet.create({
   set_filter_norm: {
     backgroundColor: "yellow",
     opacity: 0.9,
-    borderRadius: 100,
+    borderRadius: 10,
   },
   set_filter_streak: {
     backgroundColor: "orange",
     opacity: 0.9,
-    borderRadius: 100,
+    borderRadius: 10,
   },
 });

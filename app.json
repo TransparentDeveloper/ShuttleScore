@@ -2,7 +2,7 @@
   "expo": {
     "name": "셔틀스코어",
     "slug": "ShuttleScore",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "platforms": ["android"],
     "orientation": "landscape",
     "icon": "./assets/adaptive-icon.png",
