@@ -56,7 +56,6 @@ export default function CourtImagePlate({ pos, is_bottom, is_streak }) {
 const styles = StyleSheet.create({
   court_img: {
     flex: 1,
-    // minWidth: 285,
     flexDirection: "row",
   },
   left_area: {
@@ -73,12 +72,12 @@ const styles = StyleSheet.create({
 
   set_filter_norm: {
     backgroundColor: "yellow",
-    opacity: 0.9,
+    opacity: 0.95,
     borderRadius: 10,
   },
   set_filter_streak: {
     backgroundColor: "orange",
-    opacity: 0.9,
+    opacity: 0.95,
     borderRadius: 10,
   },
 });
