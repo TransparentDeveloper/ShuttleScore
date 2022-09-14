@@ -6,7 +6,7 @@ export default function CourtImagePlate({ pos, is_bottom, is_streak }) {
   return (
     <ImageBackground
       style={styles.court_img}
-      resizeMode="contain"
+      resizeMode="stretch"
       source={Court}
     >
       <View style={styles.left_area}>
