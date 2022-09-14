@@ -29,7 +29,7 @@ const styles = StyleSheet.create({
     textAlign: "center",
     textAlignVertical: "center",
     color: "white",
-    fontSize: 160,
+    fontSize: 155,
     textShadowColor: "black",
     textShadowOffset: { width: 1, height: 1 },
     textShadowRadius: 20,

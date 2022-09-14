@@ -4,7 +4,11 @@ import Court from "../assets/Court.png";
 
 export default function CourtImagePlate({ pos, is_bottom, is_streak }) {
   return (
-    <ImageBackground style={styles.court_img} source={Court}>
+    <ImageBackground
+      style={styles.court_img}
+      resizeMode="contain"
+      source={Court}
+    >
       <View style={styles.left_area}>
         <View
           style={[
@@ -52,8 +56,7 @@ export default function CourtImagePlate({ pos, is_bottom, is_streak }) {
 const styles = StyleSheet.create({
   court_img: {
     flex: 1,
-    minWidth: 285,
-    resizeMode: "contain",
+    // minWidth: 285,
     flexDirection: "row",
   },
   left_area: {
@@ -66,16 +69,16 @@ const styles = StyleSheet.create({
     flexDirection: "column",
     alignItems: "flex-end",
   },
-  sub_area: { flex: 0.5, width: "75%", borderRadius: 10 },
+  sub_area: { flex: 0.5, width: "75%" },
 
   set_filter_norm: {
     backgroundColor: "yellow",
     opacity: 0.9,
-    borderRadius: 10,
+    borderRadius: 100,
   },
   set_filter_streak: {
     backgroundColor: "orange",
     opacity: 0.9,
-    borderRadius: 10,
+    borderRadius: 100,
   },
 });
